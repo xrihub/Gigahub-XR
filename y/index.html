@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Gigahub WebXR Extension Demo 1</title>
+    <title>Welcome to Firebase Hosting</title>
 
     <!-- update the version number as needed -->
     <script defer src="/__/firebase/7.24.0/firebase-app.js"></script>
@@ -59,18 +59,18 @@
 
     <a-scene embedded arjs="sourceType: webcam; debugUIEnabled: false;">
       <a-assets>
-        <a-asset-item id="d1" src="model/d1.glb"></a-asset-item>
+        <a-asset-item id="d1" src="model/BrainStem.glb"></a-asset-item>
       </a-assets>
   
       <a-marker
         preset="custom"
         type="pattern"
-        url="https://ar-i-enterprise.github.io/ar-i-marker-patt/black-blue2-0.5.patt"
+        url="https://xrihub.github.io/Gigahub-XR/y/image_target/giga1.patt"
       >
         <a-entity
           gltf-model="#d1"
           animation-mixer
-          scale="0.01 0.01 0.01"
+          scale="1 1 1"
         ></a-entity>
       </a-marker>
   
